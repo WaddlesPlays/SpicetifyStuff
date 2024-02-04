@@ -1,7 +1,7 @@
 /*
  * Custom Cover Dimensions
  * Ports the "Custom Cover Dimensions" option from Comfy to other themes!
- * Simply paste this into a snippet, edit the variables in :root, and enjoy!
+ * Simply paste this into a snippet, edit the variables below, and enjoy!
  */
 :root {
   --cover-art-width: 200px;
@@ -11,8 +11,8 @@
 }
 
 /*
- * Stops the progress bar from overlapping on themes like Sleek
- * If your theme does not have a progress bar that overlaps the cover, comment this block out!
+ * Stops the progress bar from overlapping the cover art on themes like Sleek
+ * If your theme does not have this issue, comment this block out!
  */
 .playback-bar {
   width: calc(100% - var(--cover-art-width) - 20px) !important;

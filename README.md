@@ -7,7 +7,7 @@ A CSS snippet porting the "Custom Cover Dimensions" functionality from Comfy to 
 ### Usage
 1. Navigate to the `Snippets` tab in Marketplace
 2. Click the `+ Add CSS` button in the bottom right corner
-3. Paste the contents of the `CustomCoverDimensions.css` into the `Custom CSS` field, and fill the others with whatever you please
+3. Paste the contents of the `CustomCoverDimensions.css` file into the `Custom CSS` field, and fill the others with whatever you please
 4. Read the comments in the CSS and customize it to your liking!
 5. Click the `Save CSS` button. Your Spotify UI should refresh, and you should see the results
 
@@ -16,6 +16,7 @@ A color.ini section for the [Sleek](https://github.com/spicetify/spicetify-theme
 
 ### Usage
 1. Click on the paintbrush icon next to the colourscheme dropdown in Marketplace
+    - If you do not see this paintbrush, click on the gear icon next to the search bar and turn on `Theme Developer Tools`
 2. Paste the following into the bottom of the `Color.ini editor` textbox
 ```
 [CatppuccinMocha]
