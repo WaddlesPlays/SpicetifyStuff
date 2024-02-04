@@ -13,7 +13,10 @@ A CSS snippet porting the "Custom Cover Dimensions" functionality from Comfy to 
 
 ## Catppuccin Mocha for Sleek
 A color.ini section for the [Sleek](https://github.com/spicetify/spicetify-themes/tree/master/Sleek) theme.
-To use, open Marketplace, click the paintbrush icon next to the colourscheme dropdown, and paste the following at the bottom of the Color.ini editor window:
+
+### Usage
+1. Click on the paintbrush icon next to the colourscheme dropdown in Marketplace
+2. Paste the following into the bottom of the `Color.ini editor` textbox
 ```
 [CatppuccinMocha]
 text=cdd6f4
@@ -37,6 +40,5 @@ notification-error=f38ba8
 playback-bar=a6e3a1
 misc=45475A
 ```
-You may want to replace any instance of a6e3a1 to the colour of your choice, I have it set to Mocha Green but you may prefer a different colour from the palette.
-
-Finally, click the Save button, and select the CatppuccinMocha option from the dropdown next to the paintbrush (you may have to restart Spotify for it to show up!).
+3. You may want to replace any instance of a6e3a1 to the colour of your choice, I have it set to Mocha Green but you may prefer a different colour from the palette as your accent colour
+4. Finally, click the Save button, and select the CatppuccinMocha option from the dropdown next to the paintbrush (you may have to restart Spotify for it to show up!)
