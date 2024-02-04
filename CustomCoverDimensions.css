@@ -1,0 +1,41 @@
+/*
+ * Custom Cover Dimensions
+ * Ports the "Custom Cover Dimensions" option from Comfy to other themes!
+ * Simply paste this into a snippet, edit the variables in :root, and enjoy!
+ */
+:root {
+  --cover-art-width: 200px;
+  --cover-art-height: 200px;
+  --cover-art-radius: 8px;
+  --cover-art-bottom: 75px;
+}
+
+/*
+ * Stops the progress bar from overlapping on themes like Sleek
+ * If your theme does not have a progress bar that overlaps the cover, comment this block out!
+ */
+.playback-bar {
+  width: calc(100% - var(--cover-art-width) - 20px) !important;
+  left: calc(var(--cover-art-width) + 20px) !important;
+}
+
+/* Stops the div with this class from expanding and creating whitespace at the bottom */
+.main-nowPlayingWidget-nowPlaying {
+  height: 0;
+}
+
+/*
+ * Resizes the cover art with the variables in :root!
+ * Code mostly borrowed from the Comfy repo!
+ */
+.main-coverSlotCollapsed-container {
+    bottom: var(--cover-art-bottom);
+    border-radius: var(--cover-art-radius);
+
+    .cover-art {
+      width: var(--cover-art-width) !important;
+      height: var(--cover-art-height) !important;
+      border-radius: var(--cover-art-radius);
+    }
+  }
+}
