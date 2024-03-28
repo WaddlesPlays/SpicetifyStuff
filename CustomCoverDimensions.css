@@ -4,10 +4,10 @@
  * Simply paste this into a snippet, edit the variables below, and enjoy!
  */
 :root {
-  --cover-art-width: 200px;
-  --cover-art-height: 200px;
-  --cover-art-radius: 8px;
-  --cover-art-bottom: 75px;
+    --cover-art-width: 200px;
+    --cover-art-height: 200px;
+    --cover-art-radius: 8px;
+    --cover-art-bottom: 75px;
 }
 
 /*
@@ -15,13 +15,13 @@
  * If your theme does not have this issue, comment this block out!
  */
 .playback-bar {
-  width: calc(100% - var(--cover-art-width) - 20px) !important;
-  left: calc(var(--cover-art-width) + 20px) !important;
+    width: calc(100% - var(--cover-art-width) - 20px) !important;
+    left: calc(var(--cover-art-width) + 20px) !important;
 }
 
 /* Stops the div with this class from expanding and creating whitespace at the bottom */
 .main-nowPlayingWidget-nowPlaying {
-  height: 0;
+    height: 0;
 }
 
 /*
@@ -33,9 +33,8 @@
     border-radius: var(--cover-art-radius);
 
     .cover-art {
-      width: var(--cover-art-width) !important;
-      height: var(--cover-art-height) !important;
-      border-radius: var(--cover-art-radius);
+        width: var(--cover-art-width) !important;
+        height: var(--cover-art-height) !important;
+        border-radius: var(--cover-art-radius);
     }
-  }
 }
