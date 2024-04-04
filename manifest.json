@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Old Cover Click",
+        "description": "Restores the old functionality of clicking on the album cover in the playback bar, jumping to the currently playing song",
+        "preview": "TODO",
+        "main": "oldCoverClick/oldCoverClick.js",
+        "readme": "oldCoverClick/README.md"
+    }
+]

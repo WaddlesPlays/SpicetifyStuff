@@ -36,8 +36,8 @@
 
             // Scroll to the song position
             let index = Spicetify.Player.data.index.itemIndex;
-            let scrollBy = Math.max(0, index * 56.5); // NOTE This math isn't perfect, absurdly high indexes may not scroll enough for the song to be visible
-            document.querySelector(".Root__main-view .os-viewport").scroll(0, scrollBy);
+            let scrollBy = Math.max(0, index * 56.55); // NOTE This math isn't perfect, absurdly high indexes may not scroll enough for the song to be visible
+            document.querySelector(".Root__main-view .main-view-container__scroll-node").childNodes[1].scroll(0, scrollBy); // I just know this won't work for long
         })
     }
 
