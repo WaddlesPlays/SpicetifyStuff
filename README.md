@@ -2,7 +2,7 @@
 A simple collection of simple Spicetify things I've made for myself.
 
 ## oldCoverClick
-See it's [README]{https://github.com/WaddlesPlays/SpicetifyStuff/blob/main/oldCoverClick/README.md}.
+See it's [README](https://github.com/WaddlesPlays/SpicetifyStuff/blob/main/oldCoverClick/README.md).
 
 ## Custom Cover Dimensions
 A CSS snippet porting the "Custom Cover Dimensions" functionality from Comfy to your favourite Spicetify theme!
