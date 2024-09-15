@@ -1,18 +1,18 @@
 (function oldCoverClick() {
-    // Ensure the UI is fully loaded, to prevent issues later.
-    if (!(Spicetify?.Player?.data && Spicetify?.Menu && Spicetify?.LocalStorage && Spicetify?.Platform)) {
-        setTimeout(oldCoverClick, 1000);
-        return;
-    }
+    // Get the <button> element that the cover uses
+	const coverButton = document.querySelector( '.HD9s7U5E1RLSWKpXmrqx, .Root__now-playing-bar [data-testid="cover-art-button"]' );
+    
+	// Ensure the UI is fully loaded, to prevent issues later.
+	if ( !coverButton || !( Spicetify?.Player?.data && Spicetify?.Menu && Spicetify?.LocalStorage && Spicetify?.Platform ) ) {
+		setTimeout( oldCoverClick, 1000 );
+		return;
+	}
 
     // Hook the cover on startup
     hookCoverButton();
 
     // Updates (or creates) the click event of the cover button
     function hookCoverButton() {
-        // Get the <button> element that the cover uses
-        let coverButton = document.querySelector(".HD9s7U5E1RLSWKpXmrqx");
-
         // Navigates to the currently playing song on click
         coverButton.addEventListener("click", async (e) => {
             // Prevent the Now Playing panel from appearing
